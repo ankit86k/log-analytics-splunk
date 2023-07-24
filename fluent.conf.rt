@@ -1,4 +1,7 @@
 # JFROG ARTIFACTORY METRICS SOURCE
+<system>
+  log_level trace
+</system>
 <source>
   @type jfrog_metrics
   @id metrics_http_jfrt
