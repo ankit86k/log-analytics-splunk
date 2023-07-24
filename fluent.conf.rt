@@ -307,7 +307,7 @@
     <parse>
         @type multiline
         format_firstline /\d{4}-\d{1,2}-\d{1,2}/
-        format1 /^(?<log_timestamp>[^ ]*) \[(?<service_type>[^\]]*)\] \[(?<log_level>[^\]]*)\] \[(?<trace_id>[^\]]*)\] \[(?<class_line_number>.*)\] \[(?<thread>.*)\] \[\] -(?<message>.*)$/
+        format1 /^(?<log_timestamp>[^ ]*) \[(?<service_type>[^\]]*)\] \[(?<log_level>[^\]]*)\] \[(?<trace_id>[^\]]*)\] \[(?<class_line_number>.*)\] \[(?<thread>.*)\] -(?<message>.*)$/
         time_key log_timestamp
         time_format %Y-%m-%dT%H:%M:%S.%LZ
     </parse>
@@ -318,7 +318,7 @@
     <parse>
         @type multiline
         format_firstline /\d{4}-\d{1,2}-\d{1,2}/
-        format1 /^(?<log_timestamp>[^ ]*) \[(?<service_type>[^\]]*)\] \[(?<log_level>[^\]]*)\] \[(?<trace_id>[^\]]*)\] \[(?<class_line_number>.*)\] \[(?<thread>.*)\] \[\] -(?<message>.*)$/
+        format1 /^(?<log_timestamp>[^ ]*) \[(?<service_type>[^\]]*)\] \[(?<log_level>[^\]]*)\] \[(?<trace_id>[^\]]*)\] \[(?<class_line_number>.*)\] \[(?<thread>.*)\] -(?<message>.*)$/
         time_key log_timestamp
         time_format %Y-%m-%dT%H:%M:%S.%LZ
     </parse>
