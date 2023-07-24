@@ -1,6 +1,6 @@
 # JFROG ARTIFACTORY METRICS SOURCE
 <system>
-  log_level trace
+  log_level info
 </system>
 <source>
   @type jfrog_metrics
