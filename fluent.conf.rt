@@ -1,4 +1,4 @@
-# JFROG ARTIFACTORY METRICS SOURCE
+  # JFROG ARTIFACTORY METRICS SOURCE
 <source>
   @type jfrog_metrics
   @id metrics_http_jfrt
@@ -22,7 +22,7 @@
   source ${tag}
   index jfrog_splunk_metrics
   metric_name_key metric_name
-  metric_value_key value
+  metric_value_key dvalues
   insecure_ssl "#{ENV['SPLUNK_INSECURE_SSL']}"
 </match>
 
