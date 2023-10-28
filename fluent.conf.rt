@@ -22,7 +22,7 @@
   source ${tag}
   index jfrog_splunk_metrics
   metric_name_key metric_name
-  metric_value_key dvalue
+  metric_value_key value
   insecure_ssl "#{ENV['SPLUNK_INSECURE_SSL']}"
 </match>
 
